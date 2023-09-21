@@ -1,0 +1,6 @@
+{
+  "name": "ai-lab-plygrd",
+  "dependencies": {
+    "@dataform/core": "2.4.2"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "ai-lab-plygrd-9d5c",
+  "defaultLocation": "US"
+}
+    
