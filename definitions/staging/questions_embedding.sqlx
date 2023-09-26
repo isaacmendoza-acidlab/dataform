@@ -1,0 +1,9 @@
+config {
+  type: "table",
+  schema: "semantic_search_poc",
+  tags: ["staging"],
+}
+
+select question as pregunta,
+        email as correo
+from ${ref("lisa_hackathons")}

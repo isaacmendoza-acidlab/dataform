@@ -1,0 +1,14 @@
+config {
+  type: "table",
+  schema: "semantic_search_poc",
+  description: "Tabla lisa_hackathons",
+  tags: ["staging"]
+}
+
+select 
+      user AS question,   -- STRING
+      gpt AS answer,      -- STRING
+      email,              -- STRING
+      creation_time,      -- TIMESTAMP
+      http_status         -- INTEGER 
+from ${ref(landing.LND_TABLA_LOGS)}
